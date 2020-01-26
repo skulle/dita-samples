@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<concept id="topic5" xml:lang="en-us">
+	<title>Topic5</title>
+	<shortdesc>Topic5 shortdesc</shortdesc>
+	<conbody>
+		<p>Topic5 body</p>
+        <section>
+            <p>Referenced content:</p>
+            <p conref="topic4.xml#topic4/body"/>
+            <p conkeyref="ktopic4/body"/>
+            
+            <p><xref href="topic4.xml#topic4/body">Topic4 body with href</xref></p>
+            <p><xref keyref="ktopic4/body">Topic4 body with keyref</xref></p>
+            
+            <p><xref keyref="ktopic2/body2">Topic2 body with keyref - filter attribute at keydev target</xref></p>
+            <p><xref keyref="ktopic2filtered/body">Topic2 body with keyref - filter attribute at keydev</xref></p>
+        </section>
+	</conbody>
+</concept>

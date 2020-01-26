@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<concept audience="Internal" id="topic3" xml:lang="en-us">
+	<title>Topic3</title>
+	<shortdesc>A filtered concept</shortdesc>
+	<conbody>
+		<p>conbody</p>
+	</conbody>
+</concept>

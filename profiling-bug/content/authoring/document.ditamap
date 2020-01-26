@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+
+<map id="document" xml:lang="en-us">
+    <title>Document Title</title>
+    
+    <keydef keys="ktopic4" href="topic4.xml" processing-role="resource-only"/>
+    <keydef keys="ktopic2" href="topic2.xml" processing-role="resource-only"/>
+    <keydef keys="ktopic2filtered" href="topic2.xml" processing-role="resource-only" audience="internal"/>
+    
+    <ditavalref href="hpn1554298845811.ditaval"/>
+    <topicref format="ditamap" href="map.ditamap" />
+    <topicref keyref="ktopic4" />
+    <topicref href="topic5.xml"/>
+    
+</map>
